@@ -10,4 +10,4 @@ http://my.oschina.net/changzhongwei/blog|39106122@qq.com|changzhongwei
 
 ==========
 ###实现模型
-![](https://github.com/ChangZhongWei/chatRoom-Simple/blob/master/tcp-ip.jpg)
+![](https://github.com/ChangZhongWei/chatRoom-Simple/blob/master/chatRoom1-simple/tcp-ip.jpg)
