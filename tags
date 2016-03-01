@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Accept	wrap_func.cpp	/^int Accept(int s, struct sockaddr *addr, socklen_t *addrlen) $/;"	f
+Bind	wrap_func.cpp	/^void Bind(int sockfd, struct sockaddr *my_addr, int addrlen) $/;"	f
+Connect	wrap_func.cpp	/^void Connect(int sockfd, struct sockaddr *serv_addr, int addrlen) $/;"	f
+LISTENQ	wrap_func.h	63;"	d
+Listen	wrap_func.cpp	/^void Listen(int s, int backlog) $/;"	f
+MAXBUF	wrap_func.h	62;"	d
+MAXLINE	wrap_func.h	61;"	d
+Open_clientfd	wrap_func.cpp	/^int Open_clientfd(const char *hostname, int port) $/;"	f
+Open_listenfd	wrap_func.cpp	/^int Open_listenfd(int port) $/;"	f
+RIO_BUFSIZE	wrap_func.h	33;"	d
+SA	wrap_func.h	/^typedef struct sockaddr SA;$/;"	t	typeref:struct:sockaddr
+Setsockopt	wrap_func.cpp	/^void Setsockopt(int s, int level, int optname, const void *optval, int optlen) $/;"	f
+Socket	wrap_func.cpp	/^int Socket(int domain, int type, int protocol) $/;"	f
+__WRAP_FUNC_H__	wrap_func.h	3;"	d
+app_error	wrap_func.cpp	/^void app_error(const char *msg) \/* application error *\/$/;"	f
+assemble_addr	wrap_func.cpp	/^int assemble_addr(const char *hostname, int port, struct sockaddr_in *paddr)$/;"	f
+deal_msg	client_main.cpp	/^void deal_msg(int sockfd)$/;"	f
+deal_msg	server_main.cpp	/^void deal_msg(int sockfd)$/;"	f
+dns_error	wrap_func.cpp	/^void dns_error(const char *msg) \/* dns-style error *\/$/;"	f
+main	client_main.cpp	/^int main(int argc, char *argv[])$/;"	f
+main	server_main.cpp	/^int main(int argc, char *argv[])$/;"	f
+open_clientfd	wrap_func.cpp	/^int open_clientfd(const char *hostname, int port) $/;"	f
+open_listenfd	wrap_func.cpp	/^int open_listenfd(int port) $/;"	f
+posix_error	wrap_func.cpp	/^void posix_error(int code, const char *msg) \/* posix-style error *\/$/;"	f
+rio_buf	wrap_func.h	/^    char rio_buf[RIO_BUFSIZE]; \/* internal buffer *\/$/;"	m	struct:__anon1
+rio_bufptr	wrap_func.h	/^    char *rio_bufptr;          \/* next unread byte in internal buf *\/$/;"	m	struct:__anon1
+rio_cnt	wrap_func.h	/^    int rio_cnt;               \/* unread bytes in internal buf *\/$/;"	m	struct:__anon1
+rio_fd	wrap_func.h	/^    int rio_fd;                \/* descriptor for this internal buf *\/$/;"	m	struct:__anon1
+rio_t	wrap_func.h	/^} rio_t;$/;"	t	typeref:struct:__anon1
+unix_error	wrap_func.cpp	/^void unix_error(const char *msg) \/* unix-style error *\/$/;"	f
